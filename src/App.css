@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App {
+  display: block;
+  position: relative;
+  top: 0px;
+  height: 600px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(112, 44, 203, 1)" d="M 0 91 C 211.20000000000002 91 316.79999999999995 276 528 276 L 528 276 L 528 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(112, 44, 203, 1)" d="M 527 276 C 783.8 276 912.2 153 1169 153 L 1169 153 L 1169 0 L 527 0 Z" stroke-width="0"></path> <path fill="rgba(112, 44, 203, 1)" d="M 1168 153 C 1286.8 153 1346.2 208 1465 208 L 1465 208 L 1465 0 L 1168 0 Z" stroke-width="0"></path><path fill="rgba(112, 44, 203, 1)" d="M 1464 208 C 1638.4 208 1725.6 99 1900 99 L 1900 99 L 1900 0 L 1464 0 Z" stroke-width="0"></path><path fill="rgba(112, 44, 203, 1)" d="M 1899 99 C 1903.4 99 1905.6 99 1910 99 L 1910 99 L 1910 0 L 1899 0 Z" stroke-width="0"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Layer {
+  display: block;
+  position: relative;
+  top: 25px;
+  height: 600px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(112, 44, 203, 0.47)" d="M 0 91 C 211.20000000000002 91 316.79999999999995 276 528 276 L 528 276 L 528 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(112, 44, 203, 0.47)" d="M 527 276 C 783.8 276 912.2 153 1169 153 L 1169 153 L 1169 0 L 527 0 Z" stroke-width="0"></path> <path fill="rgba(112, 44, 203, 0.47)" d="M 1168 153 C 1286.8 153 1346.2 208 1465 208 L 1465 208 L 1465 0 L 1168 0 Z" stroke-width="0"></path><path fill="rgba(112, 44, 203, 0.47)" d="M 1464 208 C 1638.4 208 1725.6 99 1900 99 L 1900 99 L 1900 0 L 1464 0 Z" stroke-width="0"></path><path fill="rgba(112, 44, 203, 0.47)" d="M 1899 99 C 1903.4 99 1905.6 99 1910 99 L 1910 99 L 1910 0 L 1899 0 Z" stroke-width="0"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1919px) {
+  .Layer {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 1919px) {
+  .App {
+    background-size: contain;
+  }
+}
+
+
